@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Montserrat'; 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset*/
+
+.cover img {
+	position: relative;
+	width: 100%;
+	margin: -15% auto 0;
+}
+
+.cover h1 {
+	position: absolute;
+	padding: 10px 20px;
+    left: 0%;
+    top: 10%;
+    background-color: #FFF;
+    font-size: 5em;
+    color: #444956;
+}
+
+.contact {
+	background-color: #444956;
+	margin-top: -10px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 3em;
+	padding-bottom: 1%
+}
+
+a {
+	color: #FFF;
+	line-height: 2em;
+	padding-bottom: 1%
+
+}
+
+address {
+	color: #FFF;
+	line-height: 1.2em;
+	padding-bottom: 1%
+
+}
+
+.education {
+	background-color: #ed5c48;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+
+}
+
+h2 {
+	color: #FFF;
+	line-height: 1.2em;
+	padding-bottom: 1%;
+	font-size: 1.5em;
+
+}
+
+h3 {
+	color: #FFF;
+	line-height: 1.2em;
+	padding-bottom: 1%
+
+}
+
+p {
+	font-size: .9em;
+	padding-bottom: 5%
+}
+
+.employment {
+	background-color: #ffdfdb;
+	color: #444956;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%
+
+}
+
+.employment h1, 
+.employment h2,
+.employment h3 {
+	color: #444956;
+}
+
